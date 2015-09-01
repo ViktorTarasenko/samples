@@ -13,13 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.velocity.VelocityEngineUtils;
-import ru.budetsdelano.startup.entities.RestorePasswordLink;
-import ru.budetsdelano.startup.entities.User;
-import ru.budetsdelano.startup.server.dao.RestorePasswordLinkService;
-import ru.budetsdelano.startup.service.BaseUrlCalculator;
-import ru.budetsdelano.startup.service.auth.restore.RestorePasswordLinkGenerator;
-import ru.budetsdelano.startup.service.auth.restore.RestorePasswordMessageAssembler;
-import ru.budetsdelano.startup.service.auth.restore.RestorePasswordService;
+
 
 import javax.mail.Message;
 import javax.mail.internet.InternetAddress;

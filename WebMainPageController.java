@@ -8,12 +8,6 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import ru.budetsdelano.startup.entities.LandingSlide;
-import ru.budetsdelano.startup.entities.User;
-import ru.budetsdelano.startup.mobile.json.LandingSlideModel;
-import ru.budetsdelano.startup.server.dao.LandingSlideService;
-import ru.budetsdelano.startup.server.security.UserDetailsImpl;
-import ru.budetsdelano.startup.service.GetCurrentUserService;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.LinkedList;

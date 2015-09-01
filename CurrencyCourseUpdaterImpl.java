@@ -4,11 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import ru.budetsdelano.startup.entities.CurrencyCourse;
-import ru.budetsdelano.startup.mobile.json.model.CourseModel;
-import ru.budetsdelano.startup.server.dao.CurrencyCourseService;
-import ru.budetsdelano.startup.service.currency.CurrencyCourseUpdater;
-import ru.budetsdelano.startup.service.configuration.ComissionConfig;
+
 
 import java.util.Date;
 import java.util.List;

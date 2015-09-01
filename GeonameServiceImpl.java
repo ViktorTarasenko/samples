@@ -16,9 +16,7 @@ import org.hibernate.transform.ResultTransformer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.budetsdelano.startup.entities.Geoname;
-import ru.budetsdelano.startup.mobile.json.model.GeonameMarkerModel;
-import ru.budetsdelano.startup.server.dao.GeonameService;
+
 
 import java.math.BigInteger;
 import java.util.ArrayList;

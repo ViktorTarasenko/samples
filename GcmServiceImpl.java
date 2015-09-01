@@ -10,11 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import ru.budetsdelano.startup.entities.AndroidRegKey;
-import ru.budetsdelano.startup.entities.User;
-import ru.budetsdelano.startup.mobile.json.model.RawNotifyModel;
-import ru.budetsdelano.startup.server.dao.AndroidRegKeyService;
-import ru.budetsdelano.startup.service.gcm.GcmService;
+
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -6,12 +6,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
-import ru.budetsdelano.startup.entities.CurrencyCourse;
-import ru.budetsdelano.startup.mobile.json.model.CourseModel;
-import ru.budetsdelano.startup.server.dao.CurrencyCourseService;
-import ru.budetsdelano.startup.service.currency.CourseSource;
-import ru.budetsdelano.startup.service.currency.CurrencyCourseUpdater;
-import ru.budetsdelano.startup.service.currency.FetchCourseException;
+
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
